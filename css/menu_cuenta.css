@@ -1,0 +1,13 @@
+.accordion-menu > a {
+    display: block;
+    position: relative;
+  }
+  .accordion-menu > a:after {
+    content: "\f078"; /* fa-chevron-down */
+    font-family: 'FontAwesome';
+    position: absolute;
+    right: 0;
+  }
+  .accordion-menu > a[aria-expanded="true"]:after {
+    content: "\f077"; /* fa-chevron-up */
+  }
